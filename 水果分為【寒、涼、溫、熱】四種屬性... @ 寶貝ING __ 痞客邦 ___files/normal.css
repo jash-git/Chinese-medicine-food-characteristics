@@ -1,0 +1,322 @@
+/* vivi700212 : Wed, 07 Nov 2018 16:58:23 +0800 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:130%;font-family:\"標楷體\"}
+q:before,q:after {content:\'\';}
+abbr,acronym {border:0;}
+pre{font-size: 1em ;}
+.article-content{_height: 1% ;overflow: hidden ;_overflow: none;} 
+
+
+
+body{background-image:url(https://pic.pimg.tw/kanny1111/1204383698.gif);background-repeat:repeat;background-position:center top;font-size:12px;margin:auto;padding:0px;font-family: \"Arial\";overflow-x:hidden;
+cursor:url(http://kanny2222.t35.com/ani01/4.ani)}
+a:hover {cursor:url(http://kanny2222.t35.com/ani01/5.ani)}
+
+#body-div{margin: 0 auto;width: 1003px;position: relative;}
+
+
+#header{height:427px ;background: url(https://pic.pimg.tw/kanny1111/1204384150.gif);background-repeat:no-repeat;background-position:center top;}
+
+
+/*超連結*/
+a{color:#006842 ;text-decoration:none ;}
+a:hover{color:#D21EB4 ;text-decoration: none ;background:url(https://pic.pimg.tw/kanny1111/1204385235.gif) no-repeat;background-position:50% 50%;}
+
+a{blr:expression(this.onFocus=this.blur());}
+a:focus { -moz-outline-style: none; }
+
+
+/*捲軸*/
+html{
+scrollbar-arrow-color: #FFFFFF;
+scrollbar-base-color: #B64B86;
+scrollbar-dark-shadow-color: #B64B86;
+scrollbar-track-color: #B64B86;}
+
+
+/*登入後最上方的後台功能列*/
+#authority{position:absolute ; margin-top:400px;margin-left:775px ;}
+#authority a{padding:0px 10px ;color:#D21EB4;font-size:130%;font-family:\"標楷體\";}
+
+/*隱藏登入功能列.主文.全站分類*/
+#login-bar{display:none;}
+#banner .skiplink{display:none;}
+#blog-category{display:none;}
+
+/*部落格標題.描述*/
+#banner{width:980px;height:130px;overflow:hidden;}
+#banner h1 a{color:#D21EB4;font-family:華康行書體;font-size:200%;position:absolute ;top:270px;left:80px ;display:block ;}
+
+#banner h2{color:#D21EB4;font-family:華康行書體;font-size:200%;position:absolute ;top:325px;left:80px ;display:block ;}
+
+
+/*其他服務連結區塊*/
+#navigation {position: absolute;margin-left:470px;margin-top:270px;width: 303px;height: 21px;}
+
+#navigation li {float: left;height: 21px;}
+#navigation li#link-album { width: 70px; }
+#navigation li#link-blog { width: 70px; }
+#navigation li#link-guestbook { width: 70px; }
+#navigation li#link-profile { width: 70px; }
+
+#navigation li a {color:#D21EB4;font-family:\"標楷體\";font-size:150%;}
+#navigation li a:hover {background:#E9C6CD;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);-moz-opacity: 0.2;}
+
+
+/*主要內容區*/
+#main{width:1000px;margin:auto;}
+
+#content{float:left;line-height:180%;width:700px;padding-left:10px;padding-bottom:15px;overflow:hidden;}
+
+
+
+/*spotlight*/
+#spotlight{margin:0px 80px ;padding:3px 0px 15px;}
+#spotlight h5{color:#D21EB4 ;text-align:left ;padding:3px 0px ;}
+#spotlight-text{color:#006842;padding:3px;border-left:5px solid #D21EB4;}
+
+
+/*所有文章區塊*/
+#article-area{border:2px solid #D21EB4 ;margin-left:35px;}
+.article-head{background:url(https://pic.pimg.tw/kanny1111/1205346051.gif) no-repeat left; height: 100px;margin-bottom: 1px ;}
+.article{margin-bottom: 0px ;padding:10px ;}
+.article-content{line-height: 140% ;margin : 5px 0px ;
+}
+.article-footer{padding: 5px 10px;}
+
+
+/*發表時間*/
+.publish{display: block; float: left;color:#FFFF78 ;width: 51px; height: 50px lafe;
+padding: 0px !important; padding: 0px ;position:relative; bottom:-26px;left:14px;text-align: right; line-height: 100%;font-weight: bold;}
+
+.year{letter-spacing:2px;font-size:11px;text-transform :uppercase }
+.month{font-size:11px}
+.date{font-size:10px}
+.day{font-size:10px}
+.time{font-size:10px}
+
+
+/*文章標題*/
+.title h2 a{font-size: 20px;font-family:\"標楷體\"; font-weight: 900;position:relative; left:40px;bottom:-38px;padding-right:30px;}
+.title h2 img{position:relative; left:40px;bottom:-38px;}
+
+
+/*繼續閱讀*/
+.more a {margin-right:5px;float:right;display:block;width:110px;height:77px;font-size:0;text-indent:-5000px;
+background:url(https://pic.pimg.tw/kanny1111/1204599322.gif) no-repeat;}
+.more a:hover{background:url(https://pic.pimg.tw/kanny1111/1204599322.gif) no-repeat;
+}
+
+
+/*發表在....*/
+.author{text-align:left ;margin: 5px 0px 0px 10px ;border-bottom: 1px dashed a50000 ;padding-bottom: 6px ;
+padding: 3px 3px 3px 19px ;	background:url(https://pic.pimg.tw/kanny1111/1204383701.gif) no-repeat ;_background-position: 0px 5px ;}
+/*外文個人分類*/
+#blog-main .refer {text-align:left ;margin: 3px 0px 0px 0px;border-bottom: 1px dashed a50000 ;padding: 0px 3px 0px 19px ;background:url(https://pic.pimg.tw/kanny1111/1204383701.gif) no-repeat ;}
+
+
+/*--全內文章分類 : 個人分類+全站分類--*/
+.refer{border-bottom: 1px dashed #D21EB4;padding-bottom: 5px ;	margin-bottom: 5px ;}
+
+
+
+/*書籤.轉寄.top.頁數*/
+.bookmark{text-align:left ;padding-left:10px;}
+.forward{text-align:left ;padding-left:10px;}
+.back-to-top {display:none}	
+
+.page{background:url(https://pic.pimg.tw/kanny1111/1204383699.gif) no-repeat top;padding: 5px !important; padding: 6px;
+text-align: center; font-weight: bold;line-height: 180%;}
+
+
+/*--引用及回應列表全部的大範圍--*/
+#user-post{padding:15px;margin-bottom: 20px ;}
+.user-post-box{padding: 10px;}
+user-post-title{color:#D21EB4 ;padding: 5px 10px ;font-size: medium ;margin-bottom: 10px ;}
+.user-post-text{padding:20px ;}
+
+#trackback-box{margin-bottom: 20px;}
+#trackback-url input {height:16px;font-size:8pt;font-family:\"Arial\";letter-spacing:1px;vertical-align:middle;
+color:#000;border:1px solid #D21EB4 ;background:#FEEAEA;padding:0 3px 0 8px;}
+#trackback-url {padding:0px 0px 20px 20px;}
+
+
+
+/*留言回覆區*/
+.post-info .user-ip{display:none;}
+
+
+.single-post{margin-bottom: 20px ;padding: 10px ;overflow:hidden ;_overflow:none ;_height: 1% ;border: double ;border-color:#D21EB4;}
+
+
+/*引用.回應內容*/
+.post-text{width: 72%;float:right ;margin-bottom: 10px ;}
+#trackback-box .post-text{	width: auto ;float:none ;}
+
+li.post-info {margin-bottom: 10px;padding-top:35px;background: url(https://pic.pimg.tw/kanny1111/1204599100.gif) no-repeat left top;
+padding-left:55px;}
+
+
+/*回應者頭像*/
+.post-photo{width:20% ;float:left ;text-align:Center ;}
+.post-photo img{border: 1px solid #F0A5B4}
+
+
+/*版主回覆內容*/
+.reply-text{text-align:left;background:#E187B4;clear:both ;border-top: 2px dashed #D21EB4 ;padding-top: 5px ;}
+
+
+/*版主回覆資訊*/
+.reply-text p{text-align:right;background:url(https://pic.pimg.tw/kanny1111/1204383702.gif) no-repeat right;padding: 18px !important;}
+
+
+
+/*留下迴響*/
+.post-comment a{display:block ;width:112px ;height:86px ;background:url(https://pic.pimg.tw/kanny1111/1204599323.gif)  no-repeat top ;	margin:10px auto ;text-indent:-5000px ;position:relative; right:-260px;}
+.post-comment a:hover{background:url(https://pic.pimg.tw/kanny1111/1204599324.gif) no-repeat  top ;}
+
+
+
+/*寫留言區*/
+#comment-form table tr.comment-form-title { display: none; }
+#comment-form table th font { display: none;}
+
+#comment-form p {color: #090;text-align: center;margin: 10px 25px ;}
+#comment-form table {margin-left:65px;width:500px;height:450px !important;  background: url(https://pic.pimg.tw/kanny1111/48d2019ca2a8a.png) no-repeat top; center;}
+#comment-form th {color:#090; border-style:none;width:60px;padding:0px 0px 0px 90px;}
+#comment-form td {color:#090; background:transparent none repeat ;border-style:none;}
+#comment-form input { background:transparent none repeat;border-style:none;border-bottom:1px dashed #A5E200; color:#B64B86;}
+#comment-form textarea {border-style:inset;color:#B64B86; font-family:Arial;height:150px !important; 
+background:transparent; overflow:auto;width: 300px;!important;position:relative; right:2px;}
+#send-comment { font-family:Arial;font-size:10pt; position:relative; right:40px;bottom:60px ;}
+
+
+
+/*列表*/
+.main-list{padding:10px ;margin-bottom: 15px ;}
+.main-list table{width:98% ;	margin:10px;}
+.main-list h3{padding: 5px 10px ;margin-bottom: 10px;}
+.main-list th{border:1px solid #D21EB4 ;padding: 2px;}
+.main-list td{border:1px solid #D21EB4;padding: 2px;}
+/*目前分類*/
+.article-area-title{text-align:left;margin:35px 0px 5px 20px;}
+/*瀏覽方式*/
+#display{ text-align:left;margin:10px 0px 5px 20px;}
+
+
+
+
+/*側欄區*/
+#links{width: 290px;margin-right:-15px;float:right; }
+
+.box{border:2px solid #D21EB4 ;margin-right:35px;padding: 10px;margin-bottom: 15px ;font-size: 12px;}
+.box-title{font-size: 15px;text-align:center ;font-family:\"Simhei\";background:url(https://pic.pimg.tw/kanny1111/1204383699.gif) no-repeat top;height: 37px; padding:10px 30px 0px 50px ;}
+.box-text{ text-align:left ;font-family:\"Simhei\" }			
+.box-text a{display:block ;text-decoration:none ;padding: 0px 3px 5px 20px ;background:url(https://pic.pimg.tw/kanny1111/1204383701.gif) no-repeat ;}
+.box-text a:hover{	background:url(https://pic.pimg.tw/kanny1111/1204383702.gif) no-repeat ;}
+.box-more {display:none}
+.box-more img{display:none}
+
+
+
+/*自訂欄.痞客.新聞*/
+.folder .box-text{text-align:center ;}
+.folder  a{display:inline ;background:none ;}
+.folder  a:hover{display:inline ;background:none ;}
+
+#feed .box-text{text-align:center;}	
+#feed  a{display:inline ;background:none ;}		
+#feed a:hover{display:inline ;background:none ;}
+
+#powered .box-text{text-align:center;}
+#powered a{display:inline ;background:none ;}
+#powered a:hover{display:inline ;background:none ;}
+
+
+/*counter*/
+#counter .box-text{margin-left:85px;line-height:25px;}
+
+
+/*calendar*/
+#calendar{text-align:center ;}
+#calendar table{width:100% ;color: #F0A5B4;font-size:12px;}
+#calendar th , #calendar td{text-align:center ;border: 1px solid #F0A5B4 ;}
+#calendar a{background: none ;padding: 0px;background:url(https://pic.pimg.tw/kanny1111/1204383701.gif) no-repeat center;}
+#calendar a:hover{background:url(https://pic.pimg.tw/kanny1111/1204383702.gif) no-repeat center;}
+
+
+/*category*/
+#category .box-text a{display:inline ;}
+#category .box-text h6 {padding-left:8px;color: #F0A5B4;}
+#category .box-text li{display:block ;padding-left:30px;}
+#category .box-text {padding-top:10px;}
+#category .box-text li a {display:block}
+
+
+
+#latest-trackback .box-text li{display:block;}
+#latest-comment .box-text a {display:block ;}
+#subscription .box-text a {display:block ;}
+#recent-article .box-text a {display:block ;}
+#hot-article .box-text a {display:block ;}
+#mylink .box-text a {display:block ;}
+
+
+
+/*broadcast*/
+#broadcast ul{overflow:hidden ;padding: 13px 0px;}
+#broadcast a{padding: 3px 10px 0px 20px;border:0 ;display:inline ;}
+#broadcast .box-text .broadcast-time span{font-size: 10px;padding-left:15px;}
+.broadcast-text{clear:both ;}
+.broadcast-photo{display: none; }
+
+
+/*headshot*/
+#headshot{overflow:hidden ; }
+#headshot-img{text-align:center ;float:left;}
+#headshot-img img{width:80px ;border: 2px solid #F0A5B4 ;}
+#headshot a{display:inline ;}
+#headshot .box-text ul{_height: 1% ;	overflow:hidden ;_overflow:none ;}
+#headshot .box-text ul a{_margin-left: 10px;}
+
+
+/*Murmur*/
+#murmur .box-more {CLEAR: both}
+#murmur .box-more A {MARGIN: 5px 3px 3px 5px; FLOAT: left; }
+.murmur-time {MARGIN:0px 0px 8px;color:#F0A5B4 ;}
+
+
+
+/*sulect-文章彙整&我的蒐藏框*/
+select{font-family: \"Arial\";font-size: 12px;width:215px;overflow:hidden;background:#FEEAEA;border:1px solid #D21EB4;}
+
+#search-submit{color:#fff;background:#F0A5B4;border:1px solid #D21EB4;width:50px;height:18px;margin:1px 0;}
+#search-target{background:#FEEAEA;border:1px solid #D21EB4;width:150px;height:18px;}
+#search form{height:30px;}
+#search .box-text ul li{float:left;padding: 0 3px;}
+
+
+
+/*誰來.我去*/
+#visitor ul{_height: 1%; overflow: hidden; _overflow: none; }
+#visitor li{float: left;padding-left:6px;}
+#visitor .box-text li a img{height: 35px; width: 35px; border: 2px #F0A5B4 solid;  }
+
+#crumb ul{_height: 1%; overflow: hidden; _overflow: none; }
+#crumb li{float: left;padding-left:6px; }
+#crumb li a img{height: 35px; width: 35px; border: 2px #F0A5B4 solid; }
+
+#visitor a , #crumb a{display:inline ;background:none ;padding: 0px ;}
+
+
+
+/*footer*/
+#footer {height: auto;font-size: 12px;line-height: 100%;clear: both;border-bottom: 20px solid #B64B86;text-align: center;height: 30px;}
+
+#bottom {display:none;}
+#bottom a {display:none;}
